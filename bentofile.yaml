@@ -1,0 +1,15 @@
+service: "service:Pod_TTS"
+labels:
+  owner: bentoml-team
+  project: gallery
+include:
+  - "*.py"
+  - "female.wav"
+python:
+  requirements_txt: requirements.txt
+  lock_packages: false
+envs:
+  - name: "COQUI_TOS_AGREED"
+    value: 1
+docker:
+  python_version: "3.11"

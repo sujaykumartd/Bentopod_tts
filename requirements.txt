@@ -1,0 +1,8 @@
+bentoml
+descript-audiotools @ git+https://github.com/descriptinc/audiotools@348ebf2034ce24e2a91a553e3171cb00c0c71678
+numpy
+parler_tts @ git+https://github.com/huggingface/parler-tts.git@3d1b82a582719c7c1e7f1303d2bab9c62152d1eb
+soundfile
+torch
+transformers
+flash-attn
